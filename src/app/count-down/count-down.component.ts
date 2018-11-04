@@ -53,4 +53,9 @@ export class CountDownComponent implements OnInit, DoCheck {
     clearInterval(this.interval)
   }
 
+  reset(){
+    this.minutes = 15
+    this.seconds = 0    
+  }
+
 }
